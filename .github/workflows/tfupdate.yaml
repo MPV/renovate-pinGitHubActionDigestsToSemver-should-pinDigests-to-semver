@@ -10,10 +10,10 @@ jobs:
     steps:
 
       - name: "Checkout"
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: tfupdate
-        uses: daisaru11/tfupdate-github-actions@v1
+        uses: daisaru11/tfupdate-github-actions@be636ef891d6ef9f1efd0e1f9f0d10e3e995c192 # v1
         with:
           tfupdate_subcommand: terraform
           tfupdate_path: "."
